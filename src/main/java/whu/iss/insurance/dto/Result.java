@@ -11,6 +11,9 @@ public class Result {
     private Object data;
     private String reason;
 
+    public Result() {
+    }
+
     public boolean isResult() {
         return result;
     }
